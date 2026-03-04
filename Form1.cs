@@ -9,50 +9,49 @@ namespace Kalkulatorv2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (double.TryParse(textBox1.Text, out double a))
+            bool a_parsed = double.TryParse(textBox1.Text, out double a);
+            bool b_parsed = double.TryParse(textBox2.Text, out double b);
+
+            if (!a_parsed || (!b_parsed && textBox2.Visible))
             {
-                if (double.TryParse(textBox2.Text, out double b))
-                {
-
-                    switch (wzory.SelectedItem)
-                    {
-                        //Pola
-                        case "Prostokat_Pole":
-                            wynik.Text = "wynik: " + Prostokat_Pole(a, b);
-
-                            break;
-                        case "Trojkat_Pole":
-                            wynik.Text = "wynik: " + Trojkat_Pole(b, a);
-                            break;
-
-                        case "Kolo_Pole":
-                            wynik.Text = "wynik: " + Kolo_Pole(a);
-                            break;
-
-                        case "Kwadrat_Pole":
-                            wynik.Text = "wynik: " + Kwadrat_Pole(a);
-                            break;
-                        //Obwody
-                        case "Prostokat_Obwod":
-                            wynik.Text = "wynik: " + Prostokat_Obwod(a, b);
-                            break;
-
-                        case "Kolo_Obwod":
-                            wynik.Text = "wynik: " + Kolo_Obwod(a);
-                            break;
-
-                        case "Kwadrat_Obwod":
-                            wynik.Text = "wynik: " + Kwadrat_Obwod(a);
-                            break;
-                        default:
-                            MessageBox.Show("Nie wybra³eœ wzoru!");
-                            break;
-
-                    }
-                    return;
-                }
+                MessageBox.Show("Nie wpisa³eœ poprawnie cyfr!");
+                return;
             }
-            MessageBox.Show("Nie wpisa³eœ tylko cyfr!");
+
+            switch (wzory.SelectedItem)
+            {
+                //Pola
+                case "Prostok¹t_Pole":
+                    wynik.Text = "wynik: " + Prostokat_Pole(a, b);
+
+                    break;
+                case "Trójk¹t_Pole":
+                    wynik.Text = "wynik: " + Trojkat_Pole(b, a);
+                    break;
+
+                case "Ko³o_Pole":
+                    wynik.Text = "wynik: " + Kolo_Pole(a);
+                    break;
+
+                case "Kwadrat_Pole":
+                    wynik.Text = "wynik: " + Kwadrat_Pole(a);
+                    break;
+                //Obwody
+                case "Prostok¹t_Obwód":
+                    wynik.Text = "wynik: " + Prostokat_Obwod(a, b);
+                    break;
+
+                case "Ko³o_Obwód":
+                    wynik.Text = "wynik: " + Kolo_Obwod(a);
+                    break;
+
+                case "Kwadrat_Obwód":
+                    wynik.Text = "wynik: " + Kwadrat_Obwod(a);
+                    break;
+                default:
+                    MessageBox.Show("Nie wybra³eœ wzoru!");
+                    break;
+            }
         }
 
         double Prostokat_Pole(double a, double b)
@@ -68,7 +67,7 @@ namespace Kalkulatorv2
         {
             return (a * h) / 2;
         }
-      
+
         double Kwadrat_Pole(double a)
         {
             return a * a;
@@ -92,8 +91,8 @@ namespace Kalkulatorv2
         {
             switch (wzory.SelectedItem)
             {
-                case "Prostokat_Pole":
-                case "Prostokat_Obwod":
+                case "Prostok¹t_Pole":
+                case "Prostok¹t_Obwód":
                     label1.Text = "Bok1";
                     label2.Text = "Bok2";
                     label1.Show();
@@ -102,8 +101,8 @@ namespace Kalkulatorv2
                     textBox2.Show();
 
                     break;
-                case "Trojkat_Pole":
-                case "Trojkat_Obwod":
+                case "Trójk¹t_Pole":
+                case "Trójk¹t_Obwód":
                     label1.Text = "Wysokoœæ";
                     label2.Text = "Podstawa";
                     label1.Show();
@@ -112,8 +111,8 @@ namespace Kalkulatorv2
                     textBox2.Show();
                     break;
 
-                case "Kolo_Pole":
-                case "Kolo_Obwod":
+                case "Ko³o_Pole":
+                case "Ko³o_Obwód":
                     label1.Text = "Promieñ";
                     label1.Show();
                     label2.Hide();
@@ -122,7 +121,7 @@ namespace Kalkulatorv2
                     break;
 
                 case "Kwadrat_Pole":
-                case "Kwadrat_Obwod":
+                case "Kwadrat_Obwód":
                     label1.Text = "Bok";
                     label1.Show();
                     label2.Hide();

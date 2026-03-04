@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1ap\\Desktop\\Kalkulatorv2\\Kalkulatorv2.csproj": {}
+    "C:\\Users\\szcze\\Desktop\\Kalkulatorv2\\Kalkulatorv2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1ap\\Desktop\\Kalkulatorv2\\Kalkulatorv2.csproj": {
+    "C:\\Users\\szcze\\Desktop\\Kalkulatorv2\\Kalkulatorv2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1ap\\Desktop\\Kalkulatorv2\\Kalkulatorv2.csproj",
+        "projectUniqueName": "C:\\Users\\szcze\\Desktop\\Kalkulatorv2\\Kalkulatorv2.csproj",
         "projectName": "Kalkulatorv2",
-        "projectPath": "C:\\Users\\1ap\\Desktop\\Kalkulatorv2\\Kalkulatorv2.csproj",
-        "packagesPath": "C:\\Users\\1ap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1ap\\Desktop\\Kalkulatorv2\\obj\\",
+        "projectPath": "C:\\Users\\szcze\\Desktop\\Kalkulatorv2\\Kalkulatorv2.csproj",
+        "packagesPath": "C:\\Users\\szcze\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\szcze\\Desktop\\Kalkulatorv2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\1ap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\szcze\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -58,7 +58,7 @@
             label1.Name = "label1";
             label1.Size = new Size(33, 15);
             label1.TabIndex = 2;
-            label1.Text = "bok1";
+            label1.Text = "Bok1";
             // 
             // label2
             // 
@@ -67,17 +67,17 @@
             label2.Name = "label2";
             label2.Size = new Size(33, 15);
             label2.TabIndex = 3;
-            label2.Text = "bok2";
+            label2.Text = "Bok2";
             // 
             // wzory
             // 
             wzory.FormattingEnabled = true;
-            wzory.Items.AddRange(new object[] { "Prostokat_Obwod", "Kwadrat_Obwod", "Kolo_Obwod", "Prostokat_Pole", "Kwadrat_Pole", "Trojkat_Pole", "Kolo_Pole" });
+            wzory.Items.AddRange(new object[] { "Prostokąt_Obwód", "Kwadrat_Obwód", "Koło_Obwód", "Prostokąt_Pole", "Kwadrat_Pole", "Trójkąt_Pole", "Koło_Pole" });
             wzory.Location = new Point(367, 57);
             wzory.Name = "wzory";
             wzory.Size = new Size(133, 23);
             wzory.TabIndex = 4;
-            wzory.Text = "Prostokat";
+            wzory.Text = "Wybierz wzór";
             wzory.SelectedIndexChanged += wzory_SelectedIndexChanged;
             // 
             // button1
