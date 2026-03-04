@@ -1,0 +1,17 @@
+C:\Users\1ap\Desktop\Kalkulatorv2\bin\Debug\net8.0-windows\Kalkulatorv2.exe
+C:\Users\1ap\Desktop\Kalkulatorv2\bin\Debug\net8.0-windows\Kalkulatorv2.deps.json
+C:\Users\1ap\Desktop\Kalkulatorv2\bin\Debug\net8.0-windows\Kalkulatorv2.runtimeconfig.json
+C:\Users\1ap\Desktop\Kalkulatorv2\bin\Debug\net8.0-windows\Kalkulatorv2.dll
+C:\Users\1ap\Desktop\Kalkulatorv2\bin\Debug\net8.0-windows\Kalkulatorv2.pdb
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\Kalkulatorv2.Form1.resources
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\Kalkulatorv2.csproj.GenerateResource.cache
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\Kalkulatorv2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\Kalkulatorv2.AssemblyInfoInputs.cache
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\Kalkulatorv2.AssemblyInfo.cs
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\Kalkulatorv2.csproj.CoreCompileInputs.cache
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\Kalkulatorv2.sourcelink.json
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\Kalkulatorv2.dll
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\refint\Kalkulatorv2.dll
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\Kalkulatorv2.pdb
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\Kalkulatorv2.genruntimeconfig.cache
+C:\Users\1ap\Desktop\Kalkulatorv2\obj\Debug\net8.0-windows\ref\Kalkulatorv2.dll
