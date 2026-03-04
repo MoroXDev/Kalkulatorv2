@@ -54,8 +54,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T23:02:24.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T23:02:24.111Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,8 @@
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\szcze\\Desktop\\Kalkulatorv2\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\szcze\\Desktop\\Kalkulatorv2\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\szcze\\Desktop\\Kalkulatorv2\\Form1.Designer.cs*",
+              "RelativeToolTip": "Form1.Designer.cs*",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T23:02:24.118Z",
@@ -78,7 +77,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\szcze\\Desktop\\Kalkulatorv2\\Form1.cs*",
               "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAcwG4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAA0wGAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T23:02:24.12Z",
               "EditorCaption": ""

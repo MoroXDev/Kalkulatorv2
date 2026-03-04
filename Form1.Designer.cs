@@ -35,6 +35,7 @@
             wzory = new ComboBox();
             button1 = new Button();
             wynik = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -99,11 +100,21 @@
             wynik.TabIndex = 6;
             wynik.Text = "wynik:";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(367, 39);
+            label3.Name = "label3";
+            label3.Size = new Size(34, 15);
+            label3.TabIndex = 7;
+            label3.Text = "Wzór";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label3);
             Controls.Add(wynik);
             Controls.Add(button1);
             Controls.Add(wzory);
@@ -126,5 +137,6 @@
         private ComboBox wzory;
         private Button button1;
         private Label wynik;
+        private Label label3;
     }
 }
